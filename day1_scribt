@@ -1,5 +1,0 @@
-#!/bin/bash
-# to run script ./day1_sribt or by source <full path> or bash <full path>
-echo "This script made by:"
-echo "Ahmed Kamel"
-echo "First script"
