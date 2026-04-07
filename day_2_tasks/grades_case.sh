@@ -14,21 +14,10 @@ if ! [[ "$grade" =~ ^[0-9]+$ ]] || [ "$grade" -lt 0 ] || [ "$grade" -gt 100 ]; t
 fi
 # Determine letter grade using case
 case $grade in
-    9[0-9]|100)
-        letter="A"
-        ;;
-    8[0-9])
-        letter="B"
-        ;;
-    7[0-9])
-        letter="C"
-        ;;
-    6[0-9])
-        letter="D"
-        ;;
-    *)
-        letter="F"
-        ;;
+    9[0-9]|100)    letter="A"       ;;
+    8[0-9])        letter="B"       ;;
+    7[0-9])        letter="C"       ;;
+    6[0-9])        letter="D"       ;;
+    *)             letter="F"       ;;
 esac
-
 echo "The grade $grade corresponds to letter grade: $letter"

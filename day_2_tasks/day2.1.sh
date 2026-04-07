@@ -8,19 +8,9 @@ echo "This script made by: Ahmed Kamel -- Lab 2.1"
 read -p "Enter a character: " char
 # Check the type of character using case
 case $char in
-    [A-Z])  
-        echo "The character '$char' is an Upper Case letter."
-        ;;
-    [a-z])
-        echo "The character '$char' is a Lower Case letter."
-        ;;
-    [0-9])
-        echo "The character '$char' is a Number."
-        ;;
-    "")
-        echo "You entered nothing."
-        ;;
-    *)
-        echo "The character '$char' is a special character or symbol."
-        ;;
+    [A-Z])   echo "The character '$char' is an Upper Case letter."     ;;
+    [a-z])   echo "The character '$char' is a Lower Case letter."    ;;
+    [0-9])   echo "The character '$char' is a Number."       ;;
+    "")      echo "You entered nothing."       ;;
+    *)       echo "The character '$char' is a special character or symbol."       ;;
 esac            
