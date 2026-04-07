@@ -1,0 +1,24 @@
+Option 1: Use mailx with Gmail SMTP
+You can configure it to use Gmail SMTP:
+Install mailx:
+
+$ sudo dnf install mailx
+
+Configure Gmail SMTP (create or edit /etc/mail.rc or ~/.mailrc):
+
+$ set smtp-use-starttls
+$ set ssl-verify=ignore
+$ set smtp=smtp://smtp.gmail.com:587
+$ set smtp-auth=login
+$ set smtp-auth-user=your-email@gmail.com
+$ set smtp-auth-password=your-app-password
+$ set from="your-email@gmail.com"
+
+Replace your-email@gmail.com and your-app-password (16-char app password)
+
+Send a test email:
+echo "Hello from RHEL" | mailx -s "Test Email" recipient@gmail.com
+
+Update your sendmail.sh script:
+
+echo "$body" | mailx -s "$subject" "$email"
