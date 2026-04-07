@@ -1,0 +1,4 @@
+1-write addusers script   ./addusers   suffix        count      outfile.txt
+2-write addusers script   ./addusersfromfile     data.csv      outfile.txt  (username ,password ,email)
+3-write grade script
+4-sendmail.sh script   ./sendmail  outfile.txt   logfile
