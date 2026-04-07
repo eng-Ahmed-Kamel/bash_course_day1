@@ -31,7 +31,7 @@ do
     id "$username" &>/dev/null
     while [ $? -eq 0 ]; do
         echo "User $username already exists. Generating a new username."
-        username="${username}${RANDOM:0:3}"
+        username="${fname}${RANDOM:0:3}"
         id "$username" &>/dev/null
     done
     # Create user
