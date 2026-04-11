@@ -1,6 +1,0 @@
-2026-04-07 23:32:51 - Failed to send email to kamel.ahmed1720@gmail.com
-2026-04-07 23:32:51 - Failed to send email to iwhdu@dwd.com
-2026-04-07 23:34:26 - Failed to send email to kamel.ahmed1720@gmail.com
-2026-04-07 23:34:26 - Failed to send email to iwhdu@dwd.com
-2026-04-07 23:35:48 - Email sent to kamel.ahmed1720@gmail.com
-2026-04-07 23:35:50 - Email sent to iwhdu@dwd.com

@@ -1,0 +1,5 @@
+sed -n '/lp/p' passwd.txt
+sed '3d' passwd.txt
+sed '$d' passwd.txt
+sed 's/lp/mylp' passwd.txt 
+sed 's/[[:alnum:]]*lp[[:alnum:]]*/mylp/g' passwd.txt
