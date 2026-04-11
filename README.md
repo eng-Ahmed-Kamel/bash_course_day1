@@ -1,1 +1,1 @@
-day1_bash
+# complete bash course with labs and final project 
