@@ -64,7 +64,7 @@ sudo pacman -S libnewt
 
 ```bash
 # 1. Clone or download the script
-git clone https://github.com/youruser/user-manager.git
+git clone https://github.com/eng-Ahmed-Kamel/bash_course_ITI.git
 cd user-manager
 
 # 2. Make the script executable
